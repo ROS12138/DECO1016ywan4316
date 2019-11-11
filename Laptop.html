@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JB Smith</title>
+  <link rel="stylesheet" href="Category.css"/>
+
+</head>
+
+<body>
+    <header>
+      <a href="Main.html"><h1>&nbsp;&nbsp;JB Smith</h1></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <a href="Map.html"><img src="Simple_Stores.png" id="Simple_Stores"></a> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="Service.html"><img src="Simple_Help.png" id="Simple_Help"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="My_Account.html"><img src="Simple_Account.png" id="Simple_Account"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="Map.html"><img src="Stores.png" id="Stores"></a> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="Service.html"><img src="Help.png" id="Help"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="My_Account.html"><img src="My_Account.png" id="My_Account"></a>
+      
+    </header>
+  
+  </body>
+
+  
+<script language = "Javascript"> 
+    function jsDropdown(imgid,newimg){
+      document.getElementById(imgid).src = "Laptop/" + newimg + ".png";
+    }
+
+</script>
+  <body>    
+      <div class="form-group">
+          <select name="selectBox" onChange="jsDropdown('Center_image',this.value)">
+            <option value="Laptop_common">Random</option>
+            <option value="Laptop_price">Price</option>
+            <option value="Laptop_alphabetical">Alphabetical</option>
+          </select>  
+      </div>
+      <img src="Laptop/Laptop_common.png" id="Center_image">
+
+        </body>
+   
+      
+</html>

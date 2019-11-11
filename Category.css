@@ -1,0 +1,314 @@
+a:link,a:visited{font-family:Segoe UI Light;color:white;text-decoration:none;}
+a:hover{color:rgb(255, 255, 255);text-decoration:none;}
+body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  background-color: #d3f2ff;
+}
+.page {
+  width: 900px;
+  margin: 0 auto;
+
+}
+header {
+  display: flex;
+  text-align: center;
+  padding: 15 px;
+	background-color: black;
+  color: white;
+  font-size:1.4em;
+}
+#Simple_Help
+{
+    position:absolute;
+    margin-top:20px;
+    width:1px;
+    top:40px; 
+    opacity:0%;
+    
+}
+#Simple_Stores
+{
+    position:absolute;
+    margin-top:18px;
+    width:1px;
+    top:40px; 
+    opacity:0%;
+    
+}
+#Simple_Account
+{
+    position:absolute;
+    margin-top:20px;
+    width:1px;
+    top:40px; 
+    opacity:0%;
+    
+}
+#Help
+{
+    position:absolute;
+    margin-top:10px;
+    width:160px;
+    top:40px; 
+}
+#Stores
+{
+    position:absolute;
+    margin-top:8px;
+    width:80px;
+    top:40px; 
+}
+#My_Account
+{
+    position:absolute;
+    margin-top:10px;
+    width:120px;
+    top:40px; 
+}
+
+button {
+  background-color: #d4f3e6;
+  color: #808080;
+  font-size:40px;
+  padding: 14px 8px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+#Center_image{
+  position:absolute;
+  width: 940px;
+  height:460px;
+  margin-top:25px;
+  margin-left:20%;
+}
+.form-group{
+  display:block;
+  margin-left:20%;
+  margin-top: 25px;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+  header {
+    display: flex;
+    text-align: center;
+    padding: 15 px;
+    background-color: black;
+    color: white;
+    font-size:1.0em;
+  }
+  button {
+    background-color: #d4f3e6;
+    color: #808080;
+    font-size:30px;
+    padding: 3.5px 4px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  #firstcolumn {
+    float: left;
+    margin-top:5px;
+    width: 5%;
+  }
+  
+  /* Clear floats after the columns */
+  .column:not(#firstcolumn) {
+    float: left;
+    margin-top:5px;
+    margin-left:12%;
+    width: 5%;
+  }
+ 
+  #Help
+{
+    position:absolute;
+    margin-top:0px;
+    width:120px;
+    top:40px; 
+}
+#Stores
+{
+    position:absolute;
+    margin-top:-2px;
+    width:60px;
+    top:40px; 
+}
+#My_Account
+{
+    position:absolute;
+    margin-top:0px;
+    width:90px;
+    top:40px; 
+}
+
+#Center_image{
+  position:absolute;
+  margin-top:50px;
+  margin-left:15%;
+}
+.form-group{
+  display:block;
+  margin-left:15%;
+  margin-top: 15px;
+}
+
+
+}
+@media only screen and (max-width: 950px) {
+  header {
+    display: flex;
+    text-align: center;
+    padding: 15 px;
+    background-color: black;
+    color: white;
+    font-size:0.8em;
+  }
+  button {
+    background-color: #d4f3e6;
+    color: #808080;
+    font-size:20px;
+    padding: 3.5px 4px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  #Help
+{
+    position:absolute;
+    margin-top:-7px;
+    width:100px;
+    top:40px; 
+}
+#Stores
+{
+    position:absolute;
+    margin-top:-9px;
+    width:50px;
+    top:40px; 
+}
+#My_Account
+{
+    position:absolute;
+    margin-top:-7px;
+    width:70px;
+    top:40px; 
+}
+
+#Center_image{
+  position:absolute;
+  margin-top:50px;
+  margin-left:10%;
+  width: 720px;
+  height:345px;
+}
+.form-group{
+  display:block;
+  margin-left:10%;
+  margin-top: 25px;
+}
+
+
+@media only screen and (max-width: 675px) {
+  header {
+    display: flex;
+    text-align: center;
+    padding: 15 px;
+    background-color: black;
+    color: white;
+    font-size:0.6em;
+  }
+  button {
+    background-color: #d4f3e6;
+    color: #808080;
+    font-size:15px;
+    padding: 3.5px 4px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+#Simple_Help
+{
+    position:absolute;
+    margin-top:-17px;
+    width:20px;
+    top:40px; 
+    opacity:100%
+    
+}
+#Simple_Stores
+{
+    position:absolute;
+    margin-top:-22px;
+    width:20px;
+    top:40px;
+    opacity:100% 
+    
+}
+#Simple_Account
+{
+    position:absolute;
+    margin-top:-20px;
+    margin-left:-30px;
+    width:20px;
+    top:40px; 
+    opacity:100%
+    
+}
+  #Help
+{
+    position:absolute;
+    margin-top:-18px;
+    width:1px;
+    top:40px; 
+    opacity:0%;
+}
+#Stores
+{
+    position:absolute;
+    margin-top:-18px;
+    width:1px;
+    top:40px; 
+    opacity:0%;
+}
+#My_Account
+{
+    position:absolute;
+    margin-top:-20px;
+    width:1px;
+    top:40px; 
+    opacity:0%;
+}
+
+#Center_image{
+  position:absolute;
+  margin-top:50px;
+  margin-left:0%;
+  width: 570px;
+  height:280px
+  ;
+}
+.form-group{
+  display:block;
+  margin-left:0%;
+  margin-top: 25px;
+}
+
+}

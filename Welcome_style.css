@@ -1,0 +1,205 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  background-color: #d3f2ff;
+}
+.page {
+  width: 900px;
+  margin: 0 auto;
+
+}
+header {
+  display: flex;
+	text-align: center;
+	padding: 15 px;
+	background-color: black;
+  color: white;
+  font-size:1.4em;
+}
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #d4f3e6;
+  color: #808080;
+  padding: 14px 8%;
+  margin: 8px 0;
+  margin-left:73%;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+h1{
+  font-size: 2.3em;
+}
+div>h1 {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2{
+  font-size: 1.5em;
+  line-height:20px;
+}
+
+
+p{
+  font-style:italic;
+  font-size: 1.5em;
+}
+
+div>p {
+  animation-name: SecondFadeIn;
+  animation-duration: 8s;
+  animation-direction: unset;
+}
+
+@keyframes SecondFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column:nth-child(1) {
+  float: left;
+  margin-top:40px;
+  margin-left:30%;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.column:nth-child(2) {
+  margin-top:55px;
+  margin-left: 0%;
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+
+@media only screen and (max-width: 1168px) {
+ 
+  button {
+    background-color: #d4f3e6;
+    color: white;
+    padding: 14px 7%;
+    margin: 8px 0;
+    margin-left:73%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .page {
+    width: 100%;
+  } 
+
+  .content {
+    width: 100%;
+  }
+  
+  div>h1{
+    font-size:2em;
+  }
+  p{
+    font-size: 1.3em;
+    line-height:20px;
+  }
+  .column:nth-child(1) {
+    float: left;
+    margin-top:55px;
+    margin-left:15%;
+    width: 30%;
+    padding: 10px;
+  }
+  /* Clear floats after the columns */
+  .column:nth-child(2) {
+    margin-top:55px;
+    margin-left: 5%;
+    float: left;
+    width: 35%;
+    padding: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .sidebar {
+    display: none;
+  }
+  button {
+    background-color: #d4f3e6;
+    color: white;
+    padding: 14px 6%;
+    margin: 8px 0;
+    margin-left:73%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .page {
+    width: 100%;
+  }
+  div>h1{
+    font-size:1.5em;
+  }
+  h2{
+    font-size: 1.2em;
+    line-height:20px;
+  }
+  p{
+    font-style:italic;
+    font-size: 1.2em;
+  }
+
+  .column:nth-child(1) {
+    float: left;
+    margin-top:55px;
+    margin-left:5%;
+    width: 40%;
+    padding: 10px;
+  }
+  /* Clear floats after the columns */
+  .column:nth-child(2) {
+    margin-top:55px;
+    margin-left: 5%;
+    float: left;
+    width: 45%;
+    padding: 10px;
+  }
+
+  form ul li label {
+    display: block;
+  }
+
+  form ul li input {
+    width: 100%;
+    margin: 0;
+  }
+}
